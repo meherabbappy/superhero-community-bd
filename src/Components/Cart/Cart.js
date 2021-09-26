@@ -7,14 +7,21 @@ const Cart = (props) => {
     return (
         <div className = 'cart-section'>
             <img className = 'cart-img' src={img} alt="" />
-            <h4>Name: {name}</h4>
-            <h4>Country: {nationality}</h4>
-            <h4>Content: {content}</h4>
-            <h4>Age: {age}</h4>
-            <h4>Income: {income}</h4>
+            <p>Name: {name}</p>
+            <p>Country: {nationality}</p>
+            <p>Content: {content}</p>
+            <p>Income: {income}</p>
+            <p>Age: {age}</p>
+            <div>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-linkedin"></i>
+                </div>
             <button onClick = {() => props.handleAddCart(props.persons)} 
+            
             className='btn-click'>
-                <i class="fas fa-shopping-cart"></i> Favourite Youtuber</button>
+                
+                <i class="fas fa-shopping-cart"></i> Add Favourite </button>
+                
 
         </div>
     );

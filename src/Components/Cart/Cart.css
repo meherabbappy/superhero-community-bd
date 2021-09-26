@@ -3,10 +3,12 @@
    color: black;
    padding: 20px;
    text-align: center;
+   font-weight: bolder;
    margin:10px;
    border-radius: 10px;
    border: 2px solid black;
    transition: 1s;
+   font-size: 20px;
 }
 .cart-section:hover{
     background-color: tomato;
@@ -32,4 +34,11 @@
     border-radius: 10px;
     color: black;
     border: 2px solid black;
+}
+.fab{
+    font-size: 35px;
+    /* margin-top: 5px; */
+    padding: 10px;
+    border-radius: 51%;
+    cursor: pointer;
 }
