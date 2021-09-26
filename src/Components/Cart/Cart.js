@@ -15,12 +15,10 @@ const Cart = (props) => {
             <div>
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-linkedin"></i>
-                </div>
-            <button onClick = {() => props.handleAddCart(props.persons)} 
-            
-            className='btn-click'>
-                
-                <i class="fas fa-shopping-cart"></i> Add Favourite </button>
+            </div>
+            <button onClick = {() => props.handleAddCart(props.persons)}         
+            className='btn-click'> 
+             <i class="fas fa-shopping-cart"></i> Add Favourite </button>
                 
 
         </div>

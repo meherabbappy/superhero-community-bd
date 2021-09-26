@@ -7,12 +7,12 @@
    margin:10px;
    border-radius: 10px;
    border: 2px solid black;
-   transition: 1s;
+   transition: 0.5s;
    font-size: 20px;
 }
 .cart-section:hover{
-    background-color: tomato;
-    color: white;
+    background-color: aquamarine;
+    color: black;
 }
 .cart-section img{
     height: 100px;
@@ -27,7 +27,7 @@
     font-weight: bold;
     cursor: pointer;
     color: white;
-    transition: 1s;
+    transition: 0.5s;
 }
 .btn-click:hover{
     background-color: white;
