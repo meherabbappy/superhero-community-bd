@@ -8,8 +8,6 @@ const Display = () => {
 
         const [person,setPerson] = useState([]);
         const [carts,setCarts] = useState([]);
-    
-
 
         useEffect(() =>{
             fetch('./persons.JSON')
