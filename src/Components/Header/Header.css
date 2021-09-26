@@ -1,0 +1,13 @@
+.header-section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+ .total-cost{
+    font-size: 20px;
+    color: tomato;
+    font-weight: bold;
+}
