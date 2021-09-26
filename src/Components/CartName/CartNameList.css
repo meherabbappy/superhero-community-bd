@@ -1,4 +1,17 @@
 .list-name{
     font-size: 19px;
-    
+}
+
+.cart-name{
+    font-size: 20px;
+    text-align: center;
+    margin-right: 42px;
+    margin-top: 10px;
+}
+.cart-img{   
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    padding: 5px;
+
 }
